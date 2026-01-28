@@ -1,0 +1,72 @@
+# Build directory
+build/
+cmake-build-*/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Qt generated files
+*_autogen/
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+.qmake.stash
+.qmljs.stash
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+
+# IDE and editor files
+.vscode/
+.idea/
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.swp
+*.swo
+*~
+
+# Cache directories
+.cache/
+.ccache/
+
+# Model files (large binary files)
+# Uncomment if you don't want to track model files
+# models/*.onnx
+# models/*.pt
+# models/*.engine
+# models/*.trt
+
+# Debug files
+*.pdb
+*.ilk
+
+# Package files
+*.tar.gz
+*.zip
+*.7z
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp

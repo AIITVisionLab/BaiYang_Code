@@ -1,0 +1,23 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <!-- 主QML文件 -->
+        <file alias="qml/main.qml">../qml/main.qml</file>
+        <file alias="qml/SettingsDialog.qml">../qml/SettingsDialog.qml</file>
+        <file alias="qml/DetectionOverlay.qml">../qml/DetectionOverlay.qml</file>
+        <file alias="qml/StatsPanel.qml">../qml/StatsPanel.qml</file>
+        
+        <!-- 图标资源 -->
+        <file>icons/app_icon.png</file>
+        <file>icons/camera.svg</file>
+        <file>icons/video.svg</file>
+        <file>icons/image.svg</file>
+        <file>icons/folder.svg</file>
+        <file>icons/settings.svg</file>
+        <file>icons/play.svg</file>
+        <file>icons/pause.svg</file>
+        <file>icons/stop.svg</file>
+        <file>icons/export.svg</file>
+        <file>icons/model.svg</file>
+    </qresource>
+</RCC>
